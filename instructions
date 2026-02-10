@@ -1,0 +1,7 @@
+python make_chunks_and_manifest.py --audio .\audio.wav --txt .\audio_ur_en_ar_speakers.txt
+
+
+python assemble_dubbed_audio.py --manifest .\manifest.json --out .\dubbed.wav --sr 24000
+
+
+python run_xtts_from_manifest.py --manifest .\manifest.json --device cuda --language ar --max_chars 160 --skip_existing

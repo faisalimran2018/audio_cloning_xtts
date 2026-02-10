@@ -1,0 +1,19 @@
+.venv\Scripts\activate
+
+
+
+Make chunks and manifest
+
+python make_chunks_and_manifest.py --audio .\ramadan.wav --txt .\ramadan_ur_en_ar_speakers.txt --chunks_dir ramadan_chunks --manifest ramadan_manifest.json
+
+
+
+now run xtts on manifest
+
+python run_xtts_from_manifest.py --manifest .\manifest.json --device cuda --language ar --max_chars 160 --skip_existing
+python3 generate_english_tts.py --manifest manifest.json --language en --text_key en_text --device cuda
+
+
+
+make audio file from generated chunks in tts folder
+python assemble_from_tts_folder.py --manifest ramadan_manifest.json --fit_mode resample_fit --normalize

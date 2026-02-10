@@ -1,0 +1,21 @@
+{
+  "audio": "C:\\Users\\hal\\PycharmProjects\\xtts\\ramadan.wav",
+  "sample_rate": 16000,
+  "chunks_dir": "C:\\Users\\hal\\PycharmProjects\\xtts\\ramadan_chunks",
+  "tts_dir": "C:\\Users\\hal\\PycharmProjects\\xtts\\tts",
+  "segments": [
+    {
+      "id": "seg_000000",
+      "speaker": "SPEAKER_00",
+      "start": 2.461,
+      "end": 30.068,
+      "duration": 27.607000000000003,
+      "chunk_wav": "ramadan_chunks\\SPEAKER_00\\seg_000000__SPEAKER_00__00-00-02.461__00-00-30.068.wav",
+      "tts_out_wav": "tts\\seg_000000.wav",
+      "text_ar": "هذا رمضان، نحن نرتب لكم أن يكون أفضل أطباق الطبخ تم تسليمها إلى منزلكم كل أسبوع بنفس الحذر والسرية حتى يمكن للمطبخ أن يزدهر في هذا الوقت من التضخم. لذا قم بالتسجيل كل أسبوع على Bhaicharapakistan.com و ساعدنا في الأسرة.",
+      "ur_text": "اس رمضان ہم کر رہے ہیں آپ کے لیے ہر ہفتے بہترین کھانا پکانے کے سمان کا انتظام جو آپ کے گھر تک پہچایا جا رہا ہے اسی اپنایت اور رازداری کے ساتھ تاکہ مہنگائی کے اس دور میں آپ کا کچن آباد رہے تو پھر ہر ہفتے بھائیچاراپاکستان.com پر ریجسٹر کروائیں اور ہمیں گھرداری میں ہاتھ بٹانے کا موقع دیں تفاہد پوش اب بھائیچارا پاک",
+      "en_text": "This Ramadan, we're arranging for you to have the best cooking dishes delivered to your home every week with the same discretion and secrecy so that your kitchens can thrive in this time of inflation. So sign up every week at Bhaicharapakistan.com and give us a hand in the household.",
+      "ar_from_ur": "هذا رمضان سنقوم بتزويدكم بأفضل المأكولات في كل أسبوع التي يتم تسليمها إلى بيوتكم بنفس الخصوصية والكفاءة حتى تتمكنوا من استيعاب مطبخكم خلال فترة التضخم."
+    }
+  ]
+}

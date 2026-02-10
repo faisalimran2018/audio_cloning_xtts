@@ -1,0 +1,17 @@
+# Audio files (don’t commit)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.aac
+*.ogg
+
+# Large/output folders
+*.zip
+
+# Python/OS junk
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
