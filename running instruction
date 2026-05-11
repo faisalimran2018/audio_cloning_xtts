@@ -16,4 +16,4 @@ python3 generate_english_tts.py --manifest manifest.json --language en --text_ke
 
 
 make audio file from generated chunks in tts folder
-python assemble_from_tts_folder.py --manifest ramadan_manifest.json --fit_mode resample_fit --normalize
+python assemble_from_tts_folder.py --manifest ramadan_manifest.json
